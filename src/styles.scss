@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* Hintergrundfarbe der gesamten Seite */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #8634e3e4, #6a79eb); /* Farbverlauf für die Navbar */ /* Farbverlauf */
+    color: white;
+    min-height: 100vh; /* Deckt den gesamten Bildschirm ab */
+    display: flex;
+    flex-direction: column;
+}
+ 
